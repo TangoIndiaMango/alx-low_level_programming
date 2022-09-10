@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - A program that prints all different combination of three digits
  *
- * Return: Zero \. Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -13,7 +15,7 @@ int main(void)
 
 	while (num <= 7)
 	{
-		i = num + 1
+		i = num + 1;
 			while (i <= 8)
 			{
 				j = i + 1;
