@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	int count = 0;
 
-	while(num <= 8)
+	while (num <= 8)
 	{
 		i = num + 1;
 		while (i <= 9)
