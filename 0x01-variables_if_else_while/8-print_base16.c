@@ -3,7 +3,7 @@
 /**
  * main - A program that prints all numbers of base 16 in liwer case
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
