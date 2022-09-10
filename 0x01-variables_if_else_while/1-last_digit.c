@@ -18,9 +18,9 @@ int main(void)
 
 	if (val > 5)
 	{
-		printf("Last digit of %d is %d and is greater thatn 5/n", n, val);
+		printf("Last digit of %d is %d and is greater than 5\n", n, val);
 	}
-	else if (val < 6 && val !=0)
+	else if (val < 6 && val != 0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, val);
 	}
