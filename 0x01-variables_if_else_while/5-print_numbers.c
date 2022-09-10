@@ -3,7 +3,7 @@
 /**
  * main - Prints number or base 10 starting from new line
  *
- * REturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
