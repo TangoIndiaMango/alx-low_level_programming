@@ -9,24 +9,24 @@
 int main(void)
 {
 	int n;
-	int lastD;
+	int val;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	lastD = n % 10;
+	val = n % 10;
 
-	if (lastD > 5)
+	if (val > 5)
 	{
-		printf("Last digit of %d is %d and is greater thatn 5/n", n, lastD);
+		printf("Last digit of %d is %d and is greater thatn 5/n", n, val);
 	}
-	else if (lastD < 6 && lastD !=0)
+	else if (val < 6 && val !=0)
 	{
-		printf("Last digit of %d is %d and it is less than 6 and not 0\n", n, lastD);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, val);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is 0\n", n, lastD);
+		printf("Last digit of %d is %d and is 0\n", n, val);
 	}
 	
 	return (0);
