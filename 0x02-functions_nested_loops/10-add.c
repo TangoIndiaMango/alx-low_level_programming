@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * add - add two int together
- * 
+ *
  * @i: number added
  *
  * @j: number added
