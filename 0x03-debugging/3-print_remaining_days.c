@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * preint_remaining_days - takes a date and prints how many are
+ * print_remaining_days - takes a date and prints how many are
  * left in the year, taking leap years into account
  * @month: month in number format
  * @day: day of the month
