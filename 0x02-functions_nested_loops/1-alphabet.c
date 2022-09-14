@@ -3,11 +3,8 @@
 
 /**
  *
- * main - Entry point
+ * print_alphabet - print alphabets in lower case.
  *
- * print_alphabet: print alphabets in lower case.
- *
- * Return: Always (Success)
  */
 void print_alphabet(void)
 {
