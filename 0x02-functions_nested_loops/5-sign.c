@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Test if c is greater than zero, less or equal to 0
- * @c: Number to test
+ * @n: Number to test
  *
  * Return: 1 and print + if n is greater thatn zero
  *
