@@ -7,8 +7,6 @@
  *
  * @j: number added
  *
- * @sum: total value of number added
- *
  * Return: always 0
  */
 
