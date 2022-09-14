@@ -2,18 +2,20 @@
 #include <stdio.h>
 /**
  * add - add two int together
+ * 
+ * @i: number added
+ *
+ * @j: number added
+ *
+ * @sum: total value of number added
  *
  * Return: always 0
  */
 
-int add(int, int)
+int add(int i, int j)
 {
-	int i;
-	int j;
 
 	sum = i + j;
 
-	printf(sum);
-
-	return (0)
+	return (sum);
 }
