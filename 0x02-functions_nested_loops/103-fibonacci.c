@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - print first 50 fibonacci
  *
  * Return: 0 always (success)
@@ -22,4 +21,3 @@ int main(void)
 	printf("%ld\n", total_sum);
 	return (0);
 }
-		
