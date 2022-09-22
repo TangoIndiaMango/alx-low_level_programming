@@ -18,6 +18,7 @@ void print_number(int n)
 	{
 		i = n;
 	}
+
 	d = i;
 	count = 1;
 

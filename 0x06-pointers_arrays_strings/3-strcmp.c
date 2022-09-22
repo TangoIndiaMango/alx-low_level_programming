@@ -8,7 +8,7 @@
  * Return: Integer number
  */
 
-int _strcom(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	char *r = s1;
 	char *l = s2;
