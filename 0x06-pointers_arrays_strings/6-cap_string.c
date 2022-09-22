@@ -1,24 +1,28 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * char *cap_string - change words to upper case
- * @s: pointer to char parameters
+ * cap_string - Change words to uppercase
+ * @s: string to change
  *
- * Return: *s
+ * Return: pointer to the string in uppercase
  */
 char *cap_string(char *s)
 {
-	int i, j;
-	char stop_words[] = "\t\n,;.!?\"(){}";
+	int i = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i] != '\0')
 	{
-		if (s[0] >= 97 && s[0] <= 122)
-			s[0] = s[0] - 32;
-		for (j = 0; stop_words[j] != '\0'; j++)
-			if (s[i] == stop_words[j] && s[i + 1] >= 97 && s[i + 1] <= 122)
-				s[i + 1] = s[i + 1] - 32;
+		if (s[i] >= 'a' && s[i] <= 'z' &&
+				(s[i - 1] == ' ' || s[i - 1] == '\t' ||
+				 s[i - 1] == '\n' || s[i - 1] == ',' ||
+				 s[i - 1] == ';' || s[i - 1] == '.' ||
+				 s[i - 1] == '!' || s[i - 1] == '?' ||
+				 s[i - 1] == '"' || s[i - 1] == '(' ||
+				 s[i - 1] == ')' || s[i - 1] == '{' ||
+				 s[i - 1] == '}' || i == 0))
+		{
+			s[i] = s[i] - 32;
+		}
+		i++;
 	}
 	return (s);
 }

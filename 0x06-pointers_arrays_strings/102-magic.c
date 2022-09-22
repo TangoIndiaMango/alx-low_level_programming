@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/**
+ * main - entry point for the function
+ *
+ * Description: main is the entry point
+ *
+ * Return: 0 Always
+ */
 int main(void)
 {
 	int n;
