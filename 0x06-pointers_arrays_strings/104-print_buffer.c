@@ -14,7 +14,8 @@ void print_buffer(char *b, int size)
 
 	if (size <= 0)
 		printf("\n");
-	else{
+	else
+	{
 		for (j = 0; j < size; j += 10)
 		{
 			printf("%.8x:", j);
@@ -25,7 +26,7 @@ void print_buffer(char *b, int size)
 				if (k < size)
 					printf("%.2x", *(b + k));
 				else
-					printf(" ");
+					printf("  ");
 			}
 			printf(" ");
 			for (l = j; l < j + 10; l++)
