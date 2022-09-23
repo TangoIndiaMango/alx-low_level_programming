@@ -1,6 +1,11 @@
 #ifndef FILE_MAIN
 #define FILE_MAIN
 
+int main()
+{
+	return 0;
+}
+
 char *_strcat(char *dest, char *src);
 
 void print_number(int n);
