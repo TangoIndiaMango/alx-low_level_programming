@@ -6,7 +6,7 @@
  * @c: char to get
  *
  * Return: a pointer to the first occurence of a char 'c'
- * if string 's' if NULL no char 
+ * if string 's' if NULL no char
  *
  */
 
