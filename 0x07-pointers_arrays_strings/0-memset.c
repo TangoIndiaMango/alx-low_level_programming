@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * char *_memset - Fills meemory with constnt time location s to b
  * @s: source string
