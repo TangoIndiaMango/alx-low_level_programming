@@ -2,7 +2,7 @@
 /**
  * _memcpy - Copy n characters from memory area
  * @dest: Pointer to the destination array
- * Asrc: pointer to the source copied from
+ * @src: pointer to the source copied from
  * @n: Number of bytes copied
  *
  * Return: Pointer to dest
