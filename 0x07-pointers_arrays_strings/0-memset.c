@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - Fills meemory with constnt time location s to b
+ * char *_memset - Fills meemory with constnt time location s to b
  * @s: source string
  * @b: constant byte
  * @n: len of buffer
