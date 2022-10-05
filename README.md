@@ -1,1 +1,1 @@
-## Malloc and free practice 
+This is an intro to C
