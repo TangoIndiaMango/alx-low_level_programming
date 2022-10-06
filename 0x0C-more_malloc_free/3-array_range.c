@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * array_rane - initialize memory space for integers
+ * array_range - initialize memory space for integers
  * @min: string 1
- * @min: string 2
+ * @max: string 2
  *
  * Return: pointer to concatinated string
  */
