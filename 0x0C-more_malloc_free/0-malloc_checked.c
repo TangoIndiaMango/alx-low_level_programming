@@ -8,7 +8,7 @@
  * Return: 98 if error otherwise address
  */
 
-void *malloc_check(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	void *mem;
 
