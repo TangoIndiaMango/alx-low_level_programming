@@ -39,8 +39,8 @@ char *str_concat(char *s1, char *s2)
 	while (*s1)
 		*ptr++ = *s1++;
 	while (*s2)
-		*ptr++= *s2++;
+		*ptr++ = *s2++;
 	*ptr = 0;
 
 	return (ret);
-	free(ret);
+}

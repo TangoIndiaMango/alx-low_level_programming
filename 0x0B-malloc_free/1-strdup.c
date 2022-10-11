@@ -4,7 +4,7 @@
  * _strdup - returns a pointer to a newly alllocated space in memeory
  * @str: pointer to string to be duplicate
  *
- * Return: NULL if str is NULL. pointer if success, NULL if memory is not enough
+ * Return: NULL if str is NULL. pointer if success, NULL if no memory
  */
 
 char *_strdup(char *str)
@@ -21,12 +21,12 @@ char *_strdup(char *str)
 
 	while  (str[len] != '\0')
 	{
-		len ++;
+		len++;
 	}
 
 	mstr = malloc(sizeof(char) * (len + 1));
 
-	if (mstr == NLL)
+	if (mstr == NULL)
 
 	{
 		return (NULL);
