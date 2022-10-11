@@ -1,1 +1,1 @@
-This is an intro to malloc in C
+An intro to Malloc in C

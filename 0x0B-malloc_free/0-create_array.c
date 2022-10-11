@@ -10,7 +10,7 @@
  *
  * Return:  NULL if it fails
  */
-char *create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char)
 {
 	char *arr;
 	unsigned int i;
