@@ -4,7 +4,6 @@
 
 /**
  * create_array - creats an array of chars and initailize
- * @a: specific char
  * @size: size of array
  * @c: char to initialize
  *
