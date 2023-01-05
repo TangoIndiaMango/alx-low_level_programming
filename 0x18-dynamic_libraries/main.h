@@ -1,8 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
 #include <stdio.h>
 
+=======
+>>>>>>> a32d3fe5d2ebf34c48ed09d962e9dfd023436a51
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -24,4 +27,8 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
+<<<<<<< HEAD
 #endif /* MAIN_H */
+=======
+#endif
+>>>>>>> a32d3fe5d2ebf34c48ed09d962e9dfd023436a51
