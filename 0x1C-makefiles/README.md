@@ -1,6 +1,6 @@
 # 0x1B.c
 In this project folder, I have learnt about:
-
+-
 -    What are make, Makefiles
 -    When, why and how to use Makefiles
 -    What are rules and how to set and use them
