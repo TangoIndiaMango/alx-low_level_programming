@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
+#include <stdio.h>
+
+=======
+>>>>>>> a32d3fe5d2ebf34c48ed09d962e9dfd023436a51
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -31,4 +36,8 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 
+<<<<<<< HEAD
+#endif /* MAIN_H */
+=======
 #endif
+>>>>>>> a32d3fe5d2ebf34c48ed09d962e9dfd023436a51

@@ -1,1 +1,2 @@
-This is an intro to C
+# alx-low_level_programming
+Introduction to C-programming
